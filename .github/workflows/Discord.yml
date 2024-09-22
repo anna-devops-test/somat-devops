@@ -1,6 +1,8 @@
 name: Discord
 on:
   push:
+  pull_request:
+  issues:
 
 jobs:
   discord:
