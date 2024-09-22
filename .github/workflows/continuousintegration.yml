@@ -15,7 +15,7 @@ jobs:
         uses: advanced-security/python-lint-code-scanning-action@v1.1.1
         with:
           linter: pylint
-
+=======
   discord:
     runs-on: ubuntu-latest
     steps:
@@ -27,4 +27,3 @@ jobs:
         template: "avatar-with-link"
         include-extras: true
         
-
