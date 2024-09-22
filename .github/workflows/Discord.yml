@@ -2,7 +2,6 @@ name: Discord
 on:
   push:
   pull_request:
-  merge:
   issues:
 
 jobs:
